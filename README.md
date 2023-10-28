@@ -75,6 +75,7 @@ node app.js
 ```
 
 If there are no errors, the Cross Border Payment System application will be accessible at `http://localhost:3000`:
+
 ![Bank and Customer LogIn/SignUp Page](images/CBPS_Main_Pagea.png)
 
 ### Hyperledger Explorer Configuration
@@ -101,6 +102,7 @@ docker-compose up
 ```
 
 If there are no errors, the explorer interface will be accessible at `http://localhost:8080`:
+
 ![Explorer](images/Hyperlegde_Explorer_Main_Page.png)
 
 ### Stop and Clear Network
