@@ -131,7 +131,6 @@ cd ../crossBorderPayment/application
 rm -rf wallet
 rm -rf node-modules
 ```
-```
 
 Stopping and Removing Docker Containers:
 
