@@ -132,7 +132,7 @@ rm -rf wallet
 rm -rf node-modules
 ```
 
-Listing Docker Containers, Images and Volumes:
+Listing Docker Containers, Images, Volumes, and Networks:
 
 ```bash
 docker ps -a
@@ -141,11 +141,12 @@ docker volume ls
 docker network ls
 ```
 
-Stopping and Removing Docker Containers:
+Stopping Docker Containers and Removing Docker Containers, Images, Volumes, and Networks:
 
 ```bash
 docker stop $(docker ps -a -q)
 docker rm -f $(docker ps -aq)
 docker image prune 
 docker volume prune
+docker network prune
 ```
