@@ -28,7 +28,7 @@ Following are the software dependencies required to run this project
 1. Clone this repository to get the latest using the following command.
 
 ```bash
-git clone 
+git clone git@github.com:turkanozdemir/CrossBorderPaymentSystem.git
 ```
 
 2. Navigate to the `cbps-network` directory:
